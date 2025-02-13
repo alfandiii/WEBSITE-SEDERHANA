@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tentang Dede Al Fandi, seorang mahasiswa Sistem Informasi di Universitas Tadulako.">
+    <title>Tentang Saya - Dede Al Fandi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <style>
+        :root {
+            --primary-color: #004080;
+            --secondary-color: #007BFF;
+            --accent-color: #e05548;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
+            color: #fff;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        header {
+            width: 100%;
+            background: var(--primary-color);
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .logo, .nav-links {
+            flex-grow: 1;
+            text-align: center;
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 800px;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
+            margin-top: 30px;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            text-align: justify;
+            line-height: 1.6;
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 4px solid var(--accent-color);
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 2rem;
+            }
+            p {
+                font-size: 1rem;
+            }
+            .profile-img {
+                width: 120px;
+                height: 120px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html" style="color: white; text-decoration: none;">Tentang Saya</a>
+        </div>
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="biodata.html">Biodata</a>
+        </nav>
+    </header>
+    <div class="container">
+        <img src="images/DP.jpg" alt="Foto Profil Dede Al Fandi" class="profile-img">
+        <h1>Tentang Saya</h1>
+        <p>
+            Saya adalah <strong>Dede Al Fandi</strong>, seorang mahasiswa Program Studi <strong>Sistem Informasi</strong> di <strong>Universitas Tadulako</strong>, Palu. Saya memiliki minat yang besar dalam bidang <strong>Web Development</strong>, <strong>Desain Grafis</strong>, dan <strong>Fotografi</strong>. Saat ini, saya sedang mengejar gelar Sarjana (S1) dan terus mengembangkan keterampilan saya di bidang teknologi informasi.
+        </p>
+        <p>
+            Saya percaya bahwa teknologi dapat digunakan untuk menciptakan solusi inovatif yang bermanfaat bagi masyarakat. Oleh karena itu, saya selalu berusaha untuk belajar hal-hal baru dan mengikuti perkembangan terbaru di dunia IT. Saya juga aktif di Himpunan Mahasiswa Teknik Informatika (HMTI UNTAD) sebagai anggota departemen humas. Di HMTI UNTAD, saya bertanggung jawab untuk membangun dan menjaga hubungan baik dengan pihak eksternal, seperti media, masyarakat, dan organisasi lain. 
+        </p>
+        <p>
+            Jika Anda ingin mengetahui lebih lanjut tentang saya, silakan kunjungi halaman <a href="biodata.html">Biodata</a> atau hubungi saya melalui <a href="mailto:dedealfandi5@gmail.com">email</a>.
+        </p>
+    </div>
+</body>
+</html>
